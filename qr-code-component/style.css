@@ -22,34 +22,31 @@ main {
   max-width: 350px;
   display: grid;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   text-align: center;
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
-.p1 {
+h1 {
   font-size: 1.5rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
-.p2 {
+p {
   font-size: 1.1rem;
   color: hsl(216, 15%, 48%);
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0 10px;
 }
-.attribution {
+/* .attribution {
   margin-top: 20px;
   font-size: 11px; 
   text-align: center;
@@ -57,7 +54,7 @@ img {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
 
 
 @media (min-width: 1024px) {
@@ -65,6 +62,14 @@ img {
     height: 100vh;
   }
   main {
-    width: 350px
+    width: 220px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
+    margin-top: 10px;
   }
 }
